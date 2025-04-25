@@ -11,7 +11,7 @@ import json
 # 配置参数
 CHECK_INTERVAL = 300  # 检查间隔时间（秒）
 IP_FILE = Path.home() / '.last_ip'  # 存储上次 IP 的文件
-RECIPIENT = "uxiaopeng@gmail.com"  # 替换为你要发送 iMessage 的联系人
+RECIPIENT = ""  # 替换为你要发送 iMessage 的联系人
 
 def get_public_ip():
     """获取外网 IP 地址，尝试多个服务以提高准确性"""

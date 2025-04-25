@@ -1,12 +1,13 @@
 # Scripts 工程
 
-这个仓库包含了各种实用的 Python 脚本，用于自动化和系统管理任务。
+这个仓库包含了各种实用的脚本，用于自动化和系统管理任务。
 
 ## 脚本列表
 
 | 脚本名 | 作用 | 使用方式 |
 |--------|------|----------|
 | ip_monitor.py | 监控外网 IP 变化并通过 iMessage 发送通知。支持检测 VPN 状态（包括 Clash Verge）并区分原始 IP 和代理 IP。 | `python3 ip_monitor.py` |
+| stash-pull-commit-push.sh | Git 仓库代码提交脚本，通过先暂存(stash)再拉取(pull)的方式避免代码冲突，然后提交并推送代码。 | `./stash-pull-commit-push.sh '提交信息'` |
 
 ## 详细说明
 
